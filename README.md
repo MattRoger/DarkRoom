@@ -2,27 +2,37 @@
 Dark Room service webpage
 
 ## Why This Project?
-I had an idea for a landing page to turn a negative image into a positive
+I had an idea for a landing page to turn a negative image into a positive for a friends dark room business. 
+
 ## Build Status
-Y/N
+All That needs to be done is personalize the content and add verification to the contact form.
 
 ## Code style
-If you're using any code style like xo, standard etc. That will help others while contributing to your project. Ex
+HTML, CSS, JavaScript
+
+```javascript
+$(document).ready(function () {
+    fade()
+})
+
+function fade() {
+    console.log("working")
+    $(".neg").fadeOut(7000)
+}
+```
+
 
 ## Tech/framework used
-
+ * Bootstrap
+ * Adobe Photoshop
 ## Features
+An intro where and image fades from a negative to a positive using the .fadeOut fucntion and CSS Positioning
 
 ## Installation
 * :trident: Fork it
 * :sheep: Clone it
 
 
-## API Reference
-
-## Tests
-
-## How to use?
 
 
 ## Credits / Contact information
