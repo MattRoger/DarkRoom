@@ -1,16 +1,23 @@
-# DarkRoom
+# DarkRoom :film_strip:
 Dark Room service webpage
 
 ## Why This Project?
-I had an idea for a landing page to turn a negative image into a positive for a friends dark room business. 
+I had an idea for a landing page to turn a negative image into a positive for a friends dark room business. :bulb:
 
 ## Build Status
-All That needs to be done is personalize the content and add verification to the contact form.
+All That needs to be done is personalize the content and add verification to the contact form. :heavy_check_mark:
 
 ## Code style
 HTML, CSS, JavaScript
 
-## How I made it!
+## Tech/framework used
+ * Bootstrap
+ * Adobe Photoshop
+ 
+## Features
+An intro where and image fades from a negative to a positive using the .fadeOut fucntion and CSS Positioning 	:fire:
+
+## How I made it! :man_mechanic:
 
 ### Step 1
 * Inverted my image in photoshop and then made an adjustment to the middle tones. I chose this way becuase it had more controll that the css filter:invert(100%). However if you wish to replicate this effect, then give it a try!
@@ -103,13 +110,6 @@ function fade() {
     $(".neg").fadeOut(7000)
 }
 ```
-
-
-## Tech/framework used
- * Bootstrap
- * Adobe Photoshop
-## Features
-An intro where and image fades from a negative to a positive using the .fadeOut fucntion and CSS Positioning
 
 ## Installation
 * :trident: Fork it
