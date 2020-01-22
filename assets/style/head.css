@@ -1,0 +1,39 @@
+
+.headWrapper{
+    position: relative;
+}
+.head{
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Overpass Mono', monospace;
+}
+
+.head .headTextWrapper{
+    text-align: center;
+    position: absolute;
+    width:100%;
+    top:50vh;
+}
+.h1{
+    font-size: 3em;
+    
+}
+.head a{
+    font-size: 2.5em;
+    padding:1em;
+}
+.pos .h1{
+    color:white;
+}
+.pos a{
+    color:white;
+}
+.neg{
+    z-index: 100;
+    position: absolute;
+    top:0
+}
+.neg a{
+    color: black;
+}

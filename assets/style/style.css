@@ -1,0 +1,65 @@
+#about, #pricing, #contact {
+    height: 100vh;
+    overflow: auto;
+    background-color: rgb(17, 17, 17);
+    color: rgb(239, 240, 233);
+}
+
+p {
+    font-size: 1.25em;
+    line-height: 1.5em;
+}
+h1{
+    font-family: 'Poiret One', cursive;
+}
+.secNav a {
+    font-family: 'Poiret One', cursive;
+    color: rgb(239, 240, 233);
+    font-size: 2.5em;
+    padding: 1.5em;
+}
+
+.secNav {
+    padding: 1em;
+}
+
+.secNav a:hover {
+    color: rgb(17, 17, 17);
+    background: rgb(231, 230, 214);
+    padding: .25em 1em;
+    border-radius: 0px 134px 0px 133px;
+    -moz-border-radius: 0px 134px 0px 133px;
+    -webkit-border-radius: 0px 134px 0px 133px;
+}
+
+.whiteText {
+    color: rgb(231, 230, 214);
+}
+
+.borderBlack {
+    border: 3px solid black;
+}
+
+#about img {
+    padding: 1em;
+    border: 2px solid rgb(231, 230, 214);
+}
+
+button{
+    color: rgb(17, 17, 17);
+    background: rgb(231, 230, 214);
+    border: 2px solid black;
+    font-family: 'Poiret One', cursive;
+    padding: .25em 1em;
+    border-radius: 0px 134px 0px 133px;
+    -moz-border-radius: 0px 134px 0px 133px;
+    -webkit-border-radius: 0px 134px 0px 133px;
+    font-size: 1.5em;
+    margin-top:1em
+}
+button:hover{
+    border: 2px solid black;
+    color:rgb(231, 230, 214);
+    background-color: rgb(17, 17, 17);
+    transform: scale(1.5);
+}
