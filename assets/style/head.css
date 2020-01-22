@@ -1,39 +1,87 @@
-
-.headWrapper{
+.headWrapper {
     position: relative;
 }
-.head{
+
+.head {
     position: relative;
     height: 100vh;
     overflow: hidden;
     font-family: 'Overpass Mono', monospace;
 }
 
-.head .headTextWrapper{
+.head .headTextWrapper {
     text-align: center;
     position: absolute;
-    width:100%;
-    top:50vh;
+    width: 100%;
+    top: 50vh;
 }
-.h1{
+
+.h1 {
     font-size: 3em;
-    
 }
-.head a{
+
+.head a {
     font-size: 2.5em;
-    padding:1em;
+    padding: 1em;
 }
-.pos .h1{
-    color:white;
+
+.pos .h1 {
+    color: white;
 }
-.pos a{
-    color:white;
+
+.pos a {
+    color: white;
 }
-.neg{
+
+.neg {
     z-index: 100;
     position: absolute;
-    top:0
+    top: 0
 }
-.neg a{
+
+.neg a {
     color: black;
+}
+
+.mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 1025px) {
+    .fullScreen {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .h1 {
+        font-size: 2.5em;
+    }
+    .head a {
+        font-size: 2.0em;
+        padding: .75em;
+    }
+}
+@media only screen and (max-width:530px) {
+    .h1 {
+        font-size: 2em;
+    }
+    .head a {
+        display: block;
+        font-size: 1.5em;
+        padding: .5em;
+    }
+ 
+    .head {
+        
+        height: auto;
+      
+    }
+    .head .headTextWrapper {       
+        width: 100%;
+        top: 20vh;
+    }
 }

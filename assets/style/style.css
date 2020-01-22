@@ -63,3 +63,62 @@ button:hover{
     background-color: rgb(17, 17, 17);
     transform: scale(1.5);
 }
+@media only screen and (max-width: 1025px) {
+    .aboutWrapper h1{
+        font-size: 3em;
+        text-align: center;
+    }
+    .aboutWrapper img{
+        margin: auto!important;
+        
+    }
+    .float-left{
+       float: none!important;
+    }
+    .w-25 {
+        width: 35%!important;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .h1 {
+        font-size: 2.5em;
+    }
+    .head a {
+        font-size: 2.0em;
+        padding: .75em;
+    }
+    .aboutWrapper img{
+        margin: auto!important;
+        display: block!important;
+        width: 300px!important;
+        
+    }
+    .float-left{
+       float: none!important;
+    }
+}
+@media only screen and (max-width:530px) {
+    .h1 {
+        font-size: 2em;
+    }
+    .head a {
+        display: block;
+        font-size: 1.5em;
+        padding: .5em;
+    }
+ 
+    .head {
+        
+        height: auto;
+      
+    }
+    .head .headTextWrapper {       
+        width: 100%;
+        top: 20vh;
+    }
+    .form-row{
+        display: initial!important;
+    }
+    
+}
