@@ -10,6 +10,89 @@ All That needs to be done is personalize the content and add verification to the
 ## Code style
 HTML, CSS, JavaScript
 
+## How I made it!
+
+### Step 1
+* Inverted my image in photoshop and then made an adjustment to the middle tones. I chose this way becuase it had more controll that the css filter:invert(100%). However if you wish to replicate this effect, then give it a try!
+
+### Step 2 The HTML
+
+I used Bootstrap as the frame work for this project.
+
+```HTML
+ <header>
+        <div class="headerWrapper">
+            <div class="head neg">
+                <div class="headTextWrapper">
+                    <p class="h1">LeRoy's DarkRoom Printing</p>
+                    <div class="mainNav">
+                        <a href="#about">About</a>
+                        <a href="#pricing">Pricing</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+                <img src="assets/img/neg.jpg" class="img-fluid" alt="Responsive image">
+            </div>
+            <div class="head pos">
+                <div class="headTextWrapper">
+                    <p class="h1">LeRoy's DarkRoom Printing</p>
+                    <div class="mainNav">
+                        <a href="#about">About</a>
+                        <a href="#pricing">Pricing</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+                <img src="assets/img/pos.jpg" class="img-fluid" alt="Responsive image">
+            </div>
+        </div>
+    </header>
+```
+### The CSS
+
+```CSS
+.headWrapper{
+    position: relative;
+}
+.head{
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Overpass Mono', monospace;
+}
+
+.head .headTextWrapper{
+    text-align: center;
+    position: absolute;
+    width:100%;
+    top:50vh;
+}
+.h1{
+    font-size: 3em;
+    
+}
+.head a{
+    font-size: 2.5em;
+    padding:1em;
+}
+.pos .h1{
+    color:white;
+}
+.pos a{
+    color:white;
+}
+.neg{
+    z-index: 100;
+    position: absolute;
+    top:0
+}
+.neg a{
+    color: black;
+}
+
+```
+
+### The JavaScript
+
 ```javascript
 $(document).ready(function () {
     fade()
