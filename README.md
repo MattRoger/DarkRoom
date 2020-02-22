@@ -9,6 +9,8 @@ All That needs to be done is personalize the content and add verification to the
 
 ## Code style
 HTML, CSS, JavaScript
+### How the transition effect works
+
 
 ## Tech/framework used
  * Bootstrap
