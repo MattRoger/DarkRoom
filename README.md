@@ -7,12 +7,9 @@ I had an idea for a landing page to turn a negative image into a positive for a 
 ## Build Status
 All That needs to be done is personalize the content and add verification to the contact form. :heavy_check_mark:
 
-## Code style
-HTML, CSS, JavaScript
-### How the transition effect works
-
-
 ## Tech/framework used
+ * Javascript
+ * jQuery
  * Bootstrap
  * Adobe Photoshop
  
