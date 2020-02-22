@@ -7,10 +7,9 @@ I had an idea for a landing page to turn a negative image into a positive for a 
 ## Build Status
 All That needs to be done is personalize the content and add verification to the contact form. :heavy_check_mark:
 
-## Code style
-HTML, CSS, JavaScript
-
 ## Tech/framework used
+ * Javascript
+ * jQuery
  * Bootstrap
  * Adobe Photoshop
  
@@ -29,6 +28,7 @@ I used Bootstrap as the frame work for this project.
 ```HTML
  <header>
         <div class="headerWrapper">
+<!--Start with the negative image and black text -->
             <div class="head neg">
                 <div class="headTextWrapper">
                     <p class="h1">LeRoy's DarkRoom Printing</p>
@@ -40,6 +40,8 @@ I used Bootstrap as the frame work for this project.
                 </div>
                 <img src="assets/img/neg.jpg" class="img-fluid" alt="Responsive image">
             </div>
+         
+<!--Positive image with white text  -->
             <div class="head pos">
                 <div class="headTextWrapper">
                     <p class="h1">LeRoy's DarkRoom Printing</p>
