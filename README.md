@@ -28,6 +28,7 @@ I used Bootstrap as the frame work for this project.
 ```HTML
  <header>
         <div class="headerWrapper">
+<!--Start with the negative image and black text -->
             <div class="head neg">
                 <div class="headTextWrapper">
                     <p class="h1">LeRoy's DarkRoom Printing</p>
@@ -39,6 +40,8 @@ I used Bootstrap as the frame work for this project.
                 </div>
                 <img src="assets/img/neg.jpg" class="img-fluid" alt="Responsive image">
             </div>
+         
+<!--Positive image with white text  -->
             <div class="head pos">
                 <div class="headTextWrapper">
                     <p class="h1">LeRoy's DarkRoom Printing</p>
