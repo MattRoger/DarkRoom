@@ -131,4 +131,4 @@ function fade() {
 
 ## License
 
-&copy All Content Matt Roger
+©All Content Matt Roger
