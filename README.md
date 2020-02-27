@@ -18,6 +18,14 @@ All That needs to be done is personalize the content and add verification to the
 ## Features
 An intro where and image fades from a negative to a positive using the .fadeOut fucntion and CSS Positioning 	:fire:
 
+## Take A Tour
+
+#### The Intro
+![intro](https://github.com/MattRoger/screenshots/blob/master/darkroom/DarkRoom.gif?raw=true)
+#### The Body of the site
+Where the user can learn about the printer, see pricing, and contact the printer.
+![tour](https://github.com/MattRoger/screenshots/blob/master/darkroom/tour.gif?raw=true)
+
 ## How I made it! :man_mechanic:
 
 ### Step 1
@@ -120,15 +128,10 @@ function fade() {
 * :sheep: Clone it
 
 
-
-
 ## Credits / Contact information
 * @MattRoger 
   * :man_office_worker: https://mattroger.github.io/
   * :e-mail: mattroger.webdev@gmail.com
   * :man_office_worker: www.linkedin.com/in/matt-roger/
-
-
-## License
 
 ©All Content Matt Roger
